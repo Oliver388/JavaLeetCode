@@ -5,7 +5,7 @@ package solution;
  * @author linglifan
  * @date 2022/07/09 13:31
  */
-public class MergeTwoSortedLists {
+public class MergeTwoSortedLists21 {
     /**
      * 递归(递归真的不会)
      * 时间复杂度：O(n + m)
@@ -53,7 +53,7 @@ public class MergeTwoSortedLists {
     }
 
     public static void main(String[] args) {
-        MergeTwoSortedLists twoSortedLists = new MergeTwoSortedLists();
+        MergeTwoSortedLists21 twoSortedLists = new MergeTwoSortedLists21();
         ListNode list1 = new ListNode(1);
         ListNode present, node;
         present = list1;

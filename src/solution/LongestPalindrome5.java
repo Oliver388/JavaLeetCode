@@ -5,7 +5,7 @@ package solution;
  * @author linglifan
  * @date 2022/07/02 12:53
  */
-public class longestPalindrome {
+public class LongestPalindrome5 {
     /**
      * 暴力解法
      * 时间复杂度：O(n^3)
@@ -138,8 +138,8 @@ public class longestPalindrome {
 
 
     public static void main(String[] args) {
-        longestPalindrome longestPalindrome = new longestPalindrome();
-        System.out.println(longestPalindrome.longestPalindromeDP("cbbd"));
+        LongestPalindrome5 LongestPalindrome5 = new LongestPalindrome5();
+        System.out.println(LongestPalindrome5.longestPalindromeDP("cbbd"));
     }
 
 

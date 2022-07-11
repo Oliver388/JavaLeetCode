@@ -7,7 +7,7 @@ import java.util.ArrayList;
  * @author linglifan
  * @date 2022/07/01
  */
-public class LongestSubstring {
+public class LongestSubstring3 {
 
     /**
      * 本质上就是维护一个list集合，如果新加入集合的字符之前出现过，那么就从头去掉元素直至重复的那个字符
@@ -39,7 +39,7 @@ public class LongestSubstring {
     }
 
     public static void main(String[] args) {
-        LongestSubstring longestSubstring = new LongestSubstring();
+        LongestSubstring3 longestSubstring3 = new LongestSubstring3();
         System.out.println();
     }
 }
