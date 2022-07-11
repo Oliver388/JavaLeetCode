@@ -1,13 +1,11 @@
 package solution;
 
-import javax.security.auth.Subject;
-
 /**
  * @id 7
  * @author linglifan
  * @date 2022/07/03 10:55
  */
-public class Reverse {
+public class Reverse7 {
 
     /**
      * 用int直接处理
@@ -48,7 +46,7 @@ public class Reverse {
     }
 
     public static void main(String[] args) {
-        Reverse reverse = new Reverse();
-        System.out.println(reverse.reverse2(-2289422));
+        Reverse7 reverse7 = new Reverse7();
+        System.out.println(reverse7.reverse2(-2289422));
     }
 }

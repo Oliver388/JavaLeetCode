@@ -1,10 +1,11 @@
 package solution;
 
 /**
+ * @id 4
  * @author linglifan
  * @date 2022/07/01 22:07
  */
-public class MedianSortedArrays {
+public class MedianSortedArrays4 {
 
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int m = nums1.length;
@@ -69,7 +70,7 @@ public class MedianSortedArrays {
     }
 
     public static void main(String[] args) {
-        MedianSortedArrays medianSortedArrays = new MedianSortedArrays();
-        System.out.println(medianSortedArrays.findMedianSortedArrays(new int[] {1,3},new int[]{2,4}));
+        MedianSortedArrays4 medianSortedArrays4 = new MedianSortedArrays4();
+        System.out.println(medianSortedArrays4.findMedianSortedArrays(new int[] {1,3},new int[]{2,4}));
     }
 }
