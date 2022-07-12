@@ -6,18 +6,9 @@ package solution;
  * @date 2022/07/11 19:27
  */
 public class DivideTwoIntegers29 {
-    //Fixme
+    //Todo
+    //这个太恶心了 先放一放
     public int divide(int dividend, int divisor) {
-
-
-        int flag=0;
-        if (dividend>0 && divisor>0){
-            flag = 1;
-        }else if (dividend<0 && divisor<0){
-            flag = 1;
-        }else if (dividend<0 || divisor<0){
-            flag = -1;
-        }
 
         if (dividend == Integer.MIN_VALUE){
             if (divisor == 1){
@@ -31,10 +22,20 @@ public class DivideTwoIntegers29 {
             return dividend == Integer.MIN_VALUE ? 1 : 0;
         }
 
-        int absDividend = Math.abs(dividend);
-        int absDivisor = Math.abs(divisor);
+        int flag=0;
+        if (dividend>0 && divisor>0){
+            flag = 1;
+        }else if (dividend<0 && divisor<0){
+            flag = 1;
+        }else if (dividend<0 || divisor<0){
+            flag = -1;
+        }
+
+
+        int absDividend = -Math.abs(dividend);
+        int absDivisor = -Math.abs(divisor);
         int result = 0;
-        while (absDividend>=absDivisor){
+        while (absDividend<=absDivisor){
             result++;
             absDividend = absDividend - absDivisor;
 
